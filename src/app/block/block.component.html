@@ -1,0 +1,17 @@
+<div class="wrapperBlock" *ngFor="let block of arrayResponse">
+    <article class="headBlock">
+        <h1 class="nameBlock">
+            {{block.id | number:'3.'}}
+        </h1>
+    </article>
+    <div class="bodyBlock">
+        <span class="textBlock">
+        {{block.attributes.data}}
+      </span>
+    </div>
+    <div class="bodyBlock">
+        <span class="text2Block">
+        {{block.attributes.hash}}
+      </span>
+    </div>
+</div>
