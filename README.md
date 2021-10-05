@@ -4,8 +4,8 @@
 
 1. `git clone repo`
 2. `cd toy-blocks-client-angular`
-3. `yarn install`
-4. `yarn start`
+3. `npm install`
+4. `ng serve --open`
 
 
 ## Introduction
