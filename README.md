@@ -6,6 +6,7 @@
 2. `cd toy-blocks-client-angular`
 3. `npm install`
 4. `ng serve --open`
+5. for make a tests --> ng test --code-coverage
 
 
 ## Introduction
